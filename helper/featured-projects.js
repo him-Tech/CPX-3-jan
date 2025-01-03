@@ -20,7 +20,8 @@ const allImages = [
     id: 2,
     category: "others",
     alt: "Shelter",
-    title: "Module Shelter by GG Site specific for the European Capital of Culture",
+    title:
+      "Module Shelter by GG Site specific for the European Capital of Culture",
     architect: "Designer Gabriela Gomes, Arq. Adalgisa Lopes",
     year: "2012",
     location: "Guimarães, Portugal",
@@ -39,8 +40,7 @@ const allImages = [
     architect: "Museum of Fashion and Design",
     year: "",
     location: "Lisbon, Portugal",
-    images: ["/assets/webp/mude.webp"
-    ],
+    images: ["/assets/webp/mude.webp"],
   },
   {
     id: 4,
@@ -50,22 +50,17 @@ const allImages = [
     architect: "Arq. Alfredo Resende",
     year: "2012",
     location: "Oporto, Portugal",
-    images: [
-      "/assets/webp/card-11.webp",
-    ],
+    images: ["/assets/webp/card-11.webp"],
   },
   {
     id: 5,
     category: "others",
     alt: "Monestry of Salvador of Paço de Sousa",
     title: "Monestry of Salvador of Paço de Sousa",
-    architect:
-      "",
+    architect: "",
     year: "",
     location: "Paços de Sousa, Portugal",
-    images: [
-      "/assets/webp/mosteiro-salvador-paco-sousa.webp",
-    ],
+    images: ["/assets/webp/mosteiro-salvador-paco-sousa.webp"],
   },
   {
     id: 6,
@@ -73,8 +68,7 @@ const allImages = [
     category: "heritage",
     alt: "Boavista Health Center",
     title: "Boavista Health Center",
-    architect:
-      "Extension project. Participation: SCIE",
+    architect: "Extension project. Participation: SCIE",
     year: "",
     location: "Oporto, Portugal",
     images: [
@@ -87,13 +81,10 @@ const allImages = [
     category: "museums",
     alt: "Cultural House of Pinhel",
     title: "Cultural House of Pinhel",
-    architect:
-      "Participation: Project Electricity, Lighting and SCIE",
+    architect: "Participation: Project Electricity, Lighting and SCIE",
     year: "2014",
     location: "Pinhel, Portugal",
-    images: [
-      "/assets/webp/card-3.webp",
-    ],
+    images: ["/assets/webp/card-3.webp"],
   },
   {
     id: 8,
@@ -103,22 +94,17 @@ const allImages = [
     architect: "Participation: Electricity and Lighting",
     year: "",
     location: "Vila Real, Portugal",
-    images: [
-      "/assets/webp/card-8.webp",
-    ],
+    images: ["/assets/webp/card-8.webp"],
   },
   {
     id: 9,
     category: "others",
     alt: "KACST",
     title: "Expansion of the KACST Research Pole",
-    architect:
-      "Participation: Engineering Design and Lighting technology",
+    architect: "Participation: Engineering Design and Lighting technology",
     year: "",
     location: "Kiyadh, Saudi Arabia",
-    images: [
-      "/assets/webp/card-4.webp",
-    ],
+    images: ["/assets/webp/card-4.webp"],
   },
   {
     id: 10,
@@ -126,13 +112,10 @@ const allImages = [
     category: "education",
     alt: "Secondary School António Arroio",
     title: "Secondary School António Arroio",
-    architect:
-      "Arquitect Francisco Aires Mateus",
+    architect: "Arquitect Francisco Aires Mateus",
     year: "2010",
     location: "Lisbon, Portugal",
-    images: [
-      "/assets/webp/card-13.webp",
-    ],
+    images: ["/assets/webp/card-13.webp"],
   },
   {
     id: 11,
@@ -154,34 +137,27 @@ const allImages = [
     category: "commercial",
     alt: "Embraer Composites Factory",
     title: "Embraer Composites Factory",
-    architect:
-      "Arq. Alexandre Burmester",
+    architect: "Arq. Alexandre Burmester",
     year: "2011",
     location: "Évora, Portugal",
-    images: [
-      "/assets/webp/embraer-1.webp",
-    ],
+    images: ["/assets/webp/embraer-1.webp"],
   },
   {
     id: 13,
     category: "service",
     alt: "Sapienta Boutique Hotel",
     title: "Sapienta Boutique Hotel",
-    architect:
-      "Participation: Project Electricity, Lighting and SCIE",
+    architect: "Participation: Project Electricity, Lighting and SCIE",
     year: "",
     location: "Coimbra, Portugal",
-    images: [
-      "/assets/webp/sapienta-hotel.webp",
-    ],
+    images: ["/assets/webp/sapienta-hotel.webp"],
   },
   {
     id: 14,
     category: "others",
     alt: "Kigali Bugesera Airport",
     title: "Kigali Bugesera Airport",
-    architect:
-      "Participation: Project Electricity, Lighting and SCIE",
+    architect: "Participation: Project Electricity, Lighting and SCIE",
     year: "2017",
     location: "Rilima, Rwanda",
     images: [
@@ -192,11 +168,10 @@ const allImages = [
   {
     id: 15,
     category: "commercial",
-    alt: "Tratolixo's Social Building",
-    title: "Tratolixo's Social Building",
-    architect:
-      "",
-    year: "",
+    alt: "Tratolixo Social Building",
+    title: "Tratolixo Social Building",
+    architect: "Participation: Electrical, SCIE and Lighting Designer",
+    year: "2008",
     location: "Abrunheira, Portugal",
     images: ["/assets/webp/tratolixo-social.webp"],
   },
@@ -205,8 +180,7 @@ const allImages = [
     category: "others",
     alt: "MJA Gym",
     title: "MJA Gym Center",
-    architect:
-      "Arq. Maria João Andrade e Silva",
+    architect: "Arq. Maria João Andrade e Silva",
     year: "2012",
     location: "Odivelas, Portugal",
     images: ["/assets/webp/card-16.webp"],
@@ -219,21 +193,17 @@ const allImages = [
     architect: "Arq. Eduardo Souto Moura",
     year: "2010",
     location: "Lisbon, Portugal",
-    images: [
-      "/assets/webp/hospital-lisboa-oriental.webp",
-    ],
+    images: ["/assets/webp/hospital-lisboa-oriental.webp"],
   },
   {
     id: 18,
     category: "others",
-    alt: "Mechanic connections for Virtude's trail paths",
-    title: "Mechanic connections for Virtude's trail paths",
-    architect: "Participation: Project Electricity, Lighting and SCIE",
-    year: "",
-    location: "Oporto, Portugal",
-    images: [
-      "/assets/webp/virtudes-porto.webp",
-    ],
+    alt: "Pedestrian Paths - Mechanized Connections",
+    title: "Pedestrian Paths - Mechanized Connections",
+    architect: "Participation: Electrical, Lighting and SCI Designer",
+    year: "2018",
+    location: "Porto, Portugal",
+    images: ["/assets/webp/virtudes-porto.webp"],
   },
   {
     id: 19,
@@ -253,48 +223,37 @@ const allImages = [
     architect: "",
     year: "",
     location: "Mafra, Portugal",
-    images: [
-      "/assets/webp/museu-musica.webp",
-    ],
+    images: ["/assets/webp/museu-musica.webp"],
   },
   {
     id: 21,
     category: "museums",
     alt: "National Coach Museum",
     title: "National Coach Museum",
-    architect:
-      "Arq. Paulo Mendes da Rocha",
+    architect: "Arq. Paulo Mendes da Rocha",
     year: "2010-2011",
     location: "Lisbon, Portugal",
-    images: [
-      "/assets/webp/museu-coches.webp",
-    ],
+    images: ["/assets/webp/museu-coches.webp"],
   },
   {
     id: 22,
     category: "service",
     alt: "Restaurant Alfaiate",
     title: "Restaurant Alfaiate",
-    architect:
-      "Complete renovation project of the facilities",
+    architect: "Complete renovation project of the facilities",
     year: "2012",
     location: "Oporto, Portugal",
-    images: [
-      "/assets/webp/restaurante-alfaiate.webp",
-    ],
+    images: ["/assets/webp/restaurante-alfaiate.webp"],
   },
   {
     id: 23,
     category: "museums",
     alt: "Miguel Torga Cultural Center",
     title: "Miguel Torga Cultural Center",
-    architect:
-      "Arq. Gabriel Andrade-DRCN",
+    architect: "Arq. Gabriel Andrade-DRCN",
     year: "2015",
     location: "Sabrosa, Portugal",
-    images: [
-      "/assets/webp/casa-museu-miguel-torga.webp",
-    ],
+    images: ["/assets/webp/casa-museu-miguel-torga.webp"],
   },
   {
     id: 24,
@@ -304,21 +263,16 @@ const allImages = [
     architect: "Arq. PedraLiquida",
     year: "2013",
     location: "Oporto, Portugal",
-    images: [
-      "/assets/webp/card-6.webp",
-    ],
+    images: ["/assets/webp/card-6.webp"],
   },
   {
     id: 25,
     category: "service",
     alt: "Various fuel stations in Angola",
     title: "Various fuel stations in Angola",
-    architect:
-      "AFRIPLANUS subcontractor",
+    architect: "AFRIPLANUS subcontractor",
     year: "2012-2013",
     location: "Angola",
-    images: [
-      "/assets/webp/fuel-station.webp",
-    ],
+    images: ["/assets/webp/fuel-station.webp"],
   },
 ];
